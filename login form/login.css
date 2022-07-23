@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+.fields svg{
+    width: 25px;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #555;
+    background-color: #f6f6f6;
+}
+.login-div {
+    height: 700px;
+    width: 430px;
+    background: #ecf0f3;
+    border-radius: 40px;
+    box-shadow: 13px 13px 20px #cbced1,
+    -13px -13px 20px #ffffff;
+    padding: 60px 35px 35px 35px;
+}
+.logo {
+    background: url(./intro.jpg);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-size: cover;
+    box-shadow: 0px 0px 2px #5f5f5f,
+    0px 0px 0px 5px #ecf0f3,
+    -8px -8px 15px #ffffff,
+    8px 8px 15px #afaaa7;
+    cursor: pointer;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    font-size: 2rem;
+}
+
+.fields div{
+    padding: 15px 5px 15px 5px ;
+}
+.fields input {
+    border: none;
+    background:none;
+    font-size: 1rem;
+    text-transform: capitalize;
+    padding: 10px 5px 10px 5px;
+    outline: none;
+}
+.username , .password {
+    margin-bottom: 30px ;
+    border-radius: 25px;
+    box-shadow: 8px 8px 8px #cbced1,
+    -8px -8px 8px #ffffff ;
+}
+.fields {
+    margin: 40px 10px 20px 0px;
+    width: 100%; 
+}
+.svg-icon {
+    margin: 0px 10px -4px 25px ;
+    height: 22px;
+}
+.login-button {
+    height: 60px;
+    background-color: aqua;
+    border: none;
+    font-size: 2rem;
+    color:rgb(241, 238, 228);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    width: 100%;
+    margin: 30px auto;
+    box-shadow: 8px 8px 8px #cbced1,
+    -8px -8px 8px #ffffff ;
+    transition: all 0.4s;
+}
+.login-button:hover{
+    background-color:aquamarine;
+    font-size: 37px;
+}
+a {
+    text-decoration: none;
+    color: grey;
+    padding:0px 10px 0px;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.link {
+    display: flex;
+    justify-content: center;
+}
