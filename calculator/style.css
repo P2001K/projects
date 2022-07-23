@@ -1,4 +1,4 @@
-/* *{
+*{
    padding: 0;
    margin: 0;
    box-sizing: border-box;
@@ -24,7 +24,7 @@ body{
 .keypad-table{
 
 }
-/* .keypad-table tr:first-child .key{ */
+.keypad-table tr:first-child .key{
    background-color: #a5a5a5;
 }
 .keypad-table tr:first-child .key:active{
@@ -51,4 +51,4 @@ body{
 }
 .key:active{
    background-color: #33333390;
-} */
+}
