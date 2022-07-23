@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-header h1 {
+    margin-bottom: 10px;
+}
+.main-header {
+    color: wheat;
+    margin: 0 10px 10px;
+    text-align: center;
+}
+nav li {
+    list-style-type: none;
+    padding-top: 3px;
+}
+.main-header a{
+    text-decoration: none;
+    
+}
+.main-header a:hover {
+    color: rgb(29, 11, 132);
+}
+section h2{
+    margin: 10px 0px;
+    color: white;
+}
+section {
+    text-align: center;
+    background-color:aqua;
+}
+section p {
+    margin-bottom: 10px;
+    color: blueviolet;
+}
+article:first-child {
+color: blue;
+text-align: center;
+font-size: large;
+background-color: greenyellow;
+padding: 10px;
+}
+article li {
+    list-style-type: none;
+    padding: 10px;
+}
+article:last-child {
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+}
+article label {
+padding-right:10px ;
+}
